@@ -26,7 +26,9 @@ To see a more in-depth explanation of the features of this hybrid move recommend
 
 Model Architecture Diagrams:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="VpVO3Ju" data-context="false"><a href="//imgur.com/VpVO3Ju"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Hybrid Movie Recommendation Model](http://i65.tinypic.com/1zcilop.jpg)
+
+***
 
 To run the application, you must download the dataset from Kaggle, and place it in the *data/* folder. Additionally, 
 you must insert the movie data into a neo4j database. The neo4j cypher code to 
