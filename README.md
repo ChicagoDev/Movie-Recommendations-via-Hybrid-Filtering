@@ -2,7 +2,7 @@
 
 This is a hybrid model for creating a personalized list of movie recommendations. The hybrid model builds a person's movie taste-profile and generates lists of similar movies to develop the recommendations. These are created using collaborative filtering and content filtering. What makes this recommendation system unique is the use of its third model: a graph filter, implemented in [neo4j](https://neo4j.com/). The graph filter eliminates movies from being recommended if they don't fit a network criterion. 
 
-Data to create this model was sourced from the [Kaggle's The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset). This dataset contains information about 45,000 movies and 25,000,000+ movie ratings.
+Data to create this model was sourced from the [Kaggle's The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset). This dataset contains information about 45,000 movies and 25,000,000+ movie ratings. For ETL methodology, see <a href=#etl>ETL</a> below.
 
 Three different models to construct the hybrid are:
 
@@ -27,6 +27,8 @@ To see a more in-depth explanation of the features of this hybrid move recommend
 Model Architecture Diagrams:
 
 ![Hybrid Movie Recommendation Model](http://i65.tinypic.com/1zcilop.jpg)
+
+# <a name=etl> ETL </a>
 
 ***
 
